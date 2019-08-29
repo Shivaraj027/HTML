@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> STUDENT REGISTRATION FORM </title>
+</head>
+<body bgcolor="silver">
+	<center><h1><b> STUDENT APPLICATION</b></h1>
+<p>fill out the form carefully for registration</p></center>
+<form action="register.html">
+	
+<table border="0" cellspacing="15" >
+	<tr>
+		<td>STUDENT NAME:</td>
+		<td><input type="text" maxlength="6" placeholder="FIRST NAME" autocomplete="false" autofocus multiple></td>
+		<td><input type="text" maxlength="6" placeholder="SECOND NAME" autocomplete="false"></td>
+		<td><input type="text" maxlength="6" placeholder="LAST NAME" autocomplete="false"></td>
+	</tr>
+	<tr>
+		<td>BIRTHDATE: </td>
+<td><input type="date" min="2000-01-01" max="2020-12-31"></td>
+<td>GENDER:</td>
+<td>
+<select>
+  <option value="MALE">MALE</option>
+  <option value="FEMALE">FEMALE</option>
+  <option value="OTHERS">OTHERS</option>
+</select>
+</td>
+</tr>
+<tr>
+	<td>ADDRESS:</td>
+	<td><input type="text" maxlength="15" placeholder="Street Address"></td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="text" maxlength="15" placeholder="Street Address line 2" ></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><input type="text" maxlength="6" placeholder="City"></td>
+		<td><input type="text" maxlength="6" placeholder="State"></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td><input type="text" maxlength="6" placeholder="Postal/Zip Code"></td> 
+</tr>
+<tr>
+<td>STUDENT EMAIL:</td>
+<td> <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder=example@gmail.com></td>
+</tr>
+	<tr>
+		<td>MOBILE NUMBER:</td>
+		
+			
+		<td><input type="text" maxlength="2" placeholder="Area Code"></td>
+		
+		<td><input type="text" maxlength="5" placeholder="Phone Number"></td>
+	</tr>
+	<tr>
+		<td>Phone Number:</td>
+		
+			
+		<td><input type="text" maxlength="2" placeholder="Area Code"></td>
+		
+		<td><input type="text" maxlength="5" placeholder="Phone Number"></td>
+	</tr>
+	<tr>
+		<td>Work Number</td>
+		
+			
+		<td><input type="text" maxlength="2" placeholder="Area Code"></td>
+		
+		<td><input type="text" maxlength="5" placeholder="Phone Number"></td>
+	</tr>
+	<tr>
+<td>COMPANY:</td>
+<td><input list="COMPANY"></td>
+</tr>
+<datalist id="COMPANY">
+<option value="MICROSOFT">
+<option value="WIPRO">
+<option value="BELL">
+</datalist>
+<td>COURSES:</td>
+<td>
+<input type="radio" name="cou" checked>BCOM
+<input type="radio" name="cou">BTECH
+<input type="radio" name="cou">BBA
+</td>
+</tr>
+<tr>
+<td>ADDITIONAL COMMENTS:</td>
+<tr>
+	<td></td>
+<td><textarea  placeholder="Enter some text..." rows="8" cols="40"></textarea></td>
+</tr>
+</tr>
+<tr>
+<td>
+	<button value="SUBMIT APPLICATIN">SUBMIT APPLICATION</button>
+<td>
+<input type="reset"></td>
+<td>
+</td>
+</table>
+</form>
+</body>
+</html>
